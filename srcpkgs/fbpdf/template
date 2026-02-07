@@ -1,12 +1,12 @@
 # Template file for 'fbpdf'
 pkgname=fbpdf
 version=0.0.20220624
-revision=9
+revision=10
 _githash=6276360f47edd71de736e153f5dcc82b6d60b3db
 _gitshort="${_githash:0:7}"
 build_style=gnu-makefile
 makedepends="djvulibre-devel freetype-devel harfbuzz-devel
- gumbo-parser-devel mupdf-devel"
+ gumbo-parser-devel mupdf-devel jbig2dec-devel libopenjpeg2-devel"
 short_desc="Small framebuffer PDF/DJVU viewer"
 maintainer="Leah Neukirchen <leah@vuxu.org>"
 license="ISC"
